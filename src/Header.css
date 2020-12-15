@@ -1,0 +1,46 @@
+.logo{
+    background-image :url('/src/youtube_logo.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 15px;
+    left: 10px;
+  }
+  
+  .team-name{
+    border: 3px solid #faf8f8;
+    width: 80px;
+    height: 40px;
+    vertical-align: center;
+    font-size : 25px;
+    color:white;
+    text-align: center;
+    border-radius: 45px;
+    position: fixed;
+    left: 70px;
+    top: 20px;
+  }
+  
+  .wrapper1 {
+    display: grid;
+    grid-template-rows: 50% 1fr;
+    grid-gap: 10px;
+  }
+  
+  .top-bar {
+    grid-row: 1;
+    background: rgb(235, 171, 171);
+    height : 300px;
+  }
+  
+  .main-title{
+    font-size: 3rem;
+    color : white;
+    text-align: center;
+    text-shadow: 3px 3px 10px skyblue;
+  }
+ 
+  
+  
+  

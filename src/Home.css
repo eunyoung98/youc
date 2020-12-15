@@ -1,0 +1,117 @@
+main{
+    align-items: center;
+  }
+  
+  body {
+    background-color: white;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Koverwatch', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  }
+
+  
+  
+  .btn6_1{
+    width: 300px;
+    height: 100px;
+    background: #e9bd97;
+    font-family: 'Roboto', sans-serif;
+    /* display:inline-block; */
+    box-sizing: border-box;
+    border-radius: 30px;
+    color: rgb(250, 245, 245);
+    border: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin: 0 40px;
+    font-size : 25px;
+    font-weight: bold;
+    text-align: center;
+  
+    position : absolute;
+    left : 800px;
+    top: 320px;
+  }
+  
+  .btn6_1:hover{
+    background-color: #f1b978;
+    box-shadow: 0px 15px 20px rgba(238, 186, 88, 0.966);
+    color: #fff;
+    transform: translateY(-7px);
+    font-size : 28px;
+  }
+  
+  .btn6_2{
+    width: 300px;
+    height: 100px;
+    background: #5df1ac;
+    font-family: 'Roboto', sans-serif;
+    /* display: inline-block; */
+    box-sizing: border-box;
+    border-radius: 30px;
+    color: rgb(250, 245, 245);
+    border: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin: 0 40px;
+    font-size : 25px;
+    font-weight: bold;
+    text-align: center;
+  
+    position : absolute;
+    left :1150px;
+    top: 320px;
+  }
+  
+  .btn6_2:hover{
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(43, 247, 165, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+    font-size : 28px;
+  }
+  
+  
+  .btn6_3{
+    color : white;
+    width: 300px;
+    height: 100px;
+    background: #9bebbc;
+    background-color: rgb(215, 205, 253);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2.5px;
+    /* display: inline-block; */
+    box-sizing: border-box;
+    border-radius: 30px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin: 0 40px;
+    font-size : 25px;
+    font-weight: bold;
+    text-align: center;
+  
+    position : absolute;
+    left : 1500px;
+    top: 320px;
+  }
+  
+  .btn6_3:hover{
+    background-color: #93a0e9;
+    box-shadow: 0px 15px 20px rgba(132, 175, 240, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+    font-size : 28px;
+  }
